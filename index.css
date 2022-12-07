@@ -1,0 +1,85 @@
+
+/*Navigation stuff*/
+.navbar {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 65px;
+    z-index: 10;
+}
+.navbar li {
+    display: inline-block;
+    padding: 0px 60px;
+    font-size: 25px;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+#batmail2 {
+    color: rgb(174, 174, 174);
+}
+/*Banner stuff*/
+
+.banner {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px 0px 20px;
+}
+#batmail {
+    color:black;
+    font-size: 95px;
+}
+#banner_image {
+    filter: drop-shadow(1px 2px 1px);
+}
+
+/*End of page*/
+
+.greeter_section {
+    padding: 20px 60px;
+}
+
+#greets li {
+    list-style-type: none;
+}
+
+.avatar {
+    display: inline-block;
+    background-image: url("../images/bd2f5-black-batman-logo-png-free.webp");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+.icon_of_page {
+    background-image: url("../images/bd2f5-black-batman-logo-png-free.webp");
+    background-size: cover;   
+    height: 60px;
+    width: 60px;
+    border-radius: 80px;
+    position: fixed;
+    top: 0px;
+    left: 5px;
+}
+#sub {
+    padding: 15px 15px;
+    background-color: rgb(255, 255, 255);   
+    border-radius: 30px;
+    font-family: Helvetica;
+    font-size: 10px;
+}
+button:hover {
+    color: beige;
+}
+
+/*Anything that is for text*/
+
+.bold {
+    font-weight: 900;
+    font-family:'Times New Roman';
+}
